@@ -16,7 +16,7 @@ const PlayerDetails = (props) => {
             <img src={images} alt="" width="200px" />
             <h4>Current Club: {current_club} </h4>
             <h4>Salary: ${salary}</h4>
-            <button className="btn btn-success"  onClick={() => handleAddPlayer(props.eachPlayer)}><FontAwesomeIcon icon={faUserPlus} /> add players</button>
+            <button className="btn btn-success"  onClick={() => handleAddPlayer(props.eachPlayer)}><FontAwesomeIcon icon={faUserPlus} /> add player</button>
         </div>
     );
 };
