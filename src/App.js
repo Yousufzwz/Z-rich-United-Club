@@ -1,23 +1,39 @@
-import logo from './logo.svg';
+
 import './App.css';
+import data from './data/data.json'
+import PlayerDetails from './Components/PlayerDetails/PlayerDetails';
+import { useEffect, useState } from 'react';
+import NewTeam from './Components/PlayerDetails/NewTeam/NewTeam';
+import { Container, Navbar } from 'react-bootstrap';
 
 function App() {
+  const [players, setPlayers] = useState([]);
+  const [teamPlayer, setTeamPlayer] = useState([]);
+
+  useEffect(() => {
+    setPlayers(data);
+  }, [])
+
+  const handleAddPlayer = (eachPlayer) => {
+    const newTeamPlayer = [...teamPlayer, eachPlayer];
+    setTeamPlayer(newTeamPlayer);
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar expand="lg" variant="light" bg="light">
+  <Container>
+    <Navbar.Brand href="#" ><h2>Welcome to a New Club</h2></Navbar.Brand>
+  </Container>
+</Navbar>
+      <h1>Zürich United Club</h1>
+        <h4>Total Players: {players.length}</h4>
+        <h3>Players Added For NewTeam: {teamPlayer.length}</h3>
+      <NewTeam teamPlayer={teamPlayer}></NewTeam>
+        <ol>
+          {
+            players.map(eachPlayer => <PlayerDetails eachPlayer={eachPlayer} handleAddPlayer={handleAddPlayer} id={eachPlayer.id}></PlayerDetails> )
+          }
+        </ol>
     </div>
   );
 }

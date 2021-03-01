@@ -1,0 +1,96 @@
+[{
+
+
+    "id": 1,
+    "player_name": "Mohamed Salah",
+    "current_club":"Liverpool",
+    "images":"https://platform-static-files.s3.amazonaws.com/premierleague/photos/players/250x250/p118748.png",
+    
+    "salary": 460000
+  }, {
+    "id": 2,
+    "player_name": "Lionel Messi",
+    "current_club":"Barcelona",
+    "images":"https://thesource.com/wp-content/uploads/2017/05/522420.jpg ",
+    "salary": 710000
+
+  }, {
+    "id": 3,
+    "player_name": "Cristiano Ronaldo",
+    "current_club":"RealMadrid",
+    "images":" https://www.realmadrid.com/img/vertical_380px/cristiano_550x650.jpg",
+    "salary": 698000
+  }, {
+    "id": 4,
+    "player_name": "Neymar",
+    "current_club":"Juventus",
+    "images":"https://s.hs-data.com/bilder/spieler/gross/142105.jpg ",
+    "salary": 730000
+  }, {
+    "id": 5,
+    "player_name": "Karim Benzema ",
+    "current_club":"RealMadrid",
+    "images":"https://www.realmadrid.com/img/vertical_380px/benzema_380x501_20201203095836.jpg  ",
+    "salary": 500000
+  }, {
+    "id": 6,
+    "player_name": " Zlatan Ibrahimović",
+    "current_club":"Arsenal",
+    "images":"https://s.hs-data.com/bilder/spieler/gross/1274.jpg",
+    "salary": 440000
+  }, {
+    "id": 7,
+    "player_name": "Mesut Özil",
+    "current_club":"Arsenal",
+    "images":"https://icdn.justarsenal.com/wp-content/uploads/2020/07/ozil-kit.jpg  ",
+    "salary": 600000
+  }, {
+    "id": 8,
+    "player_name": "Thomas Müller",
+    "current_club":"NewCastle United",
+    "images":"https://i.pinimg.com/474x/d4/2b/5f/d42b5ff73b004e64ebc6738e5045ebed.jpg ",
+    "salary": 590000
+  }, {
+    "id": 9,
+    "x_name": "Financial Master",
+    "player_name": "Manuel Neuer",
+    "current_club":"Chelsea",
+    "images":"https://i.pinimg.com/736x/55/0d/ee/550deee172d77da04845266aee7a2665.jpg ",
+    "salary": 550000
+  }, {
+    "id": 10,
+    "player_name": "Ángel Di María",
+    "current_club":"Juventus",
+    "images":"https://m.footballdatabase.eu/images/photos/players/a_21/21136.jpg",
+    "salary": 460000
+  }, {
+    "id": 11,
+    "player_name": "Miroslav Klose",
+    "current_club":"Liverpool",
+    "images":"https://i.pinimg.com/originals/ff/3b/d4/ff3bd4a98e9e7f990743ce9a8db4d94b.png  ",
+    "salary": 65000
+  }, {
+    "id": 12,
+    "player_name": "Gianluigi Buffon",
+    "current_club":"Totenham",
+    "images":"https://www.peoples.ru/sport/football/g.g._buffon/vVkt2aDf7gwlr.jpeg   ",
+    "salary": 610000
+  }, {
+    "id": 13,
+    "player_name": "Sergio Agüero",
+    "current_club":"Arsenal",
+    "images":"https://m.footballdatabase.eu/images/photos/players/a_15/15376.jpg ",
+    "salary": 350000
+  }, {
+    "id": 14,
+    "player_name": "Luka Modrić",
+    "current_club":"RealMadrid",
+    "images":"https://www.realmadrid.com/img/vertical_380px/modric_380x501_20201203095835.jpg   ",
+    "salary": 390000
+  }, {
+    "id": 15,
+    "player_name": "Kylian Mbappé",
+    "current_club":"Juventus",
+    "images":"https://s.hs-data.com/bilder/spieler/gross/284095.jpg   ",
+    "salary": 580000
+  }]
